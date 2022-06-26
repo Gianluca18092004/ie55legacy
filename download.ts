@@ -1,5 +1,5 @@
 const downloadIE55sp2 = (form) => {
-    window.location.pathname=`/ie55sp2/${form.lang.value}/IE5SETUP.EXE`;
+    window.location.replace(`http://ie55browserforbetter.tk/ie55sp2/${form.lang.value}/IE5SETUP.EXE`);
     return false;
 };
 
