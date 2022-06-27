@@ -3,6 +3,6 @@ var downloadIE55sp2 = function (form) {
     return false;
 };
 var downloadIE55sp3win2k = function (form) {
-    window.location.pathname = "/ie55sp2/win95/Windows2000-KB999999-x86-".concat(form.lang.value, ".EXE");
+    window.location.replace("/ie55sp2/win2k/IE5.5SP3-KB2962872-WINDOWS2000-X86-INTL.EXE");
     return false;
 };
